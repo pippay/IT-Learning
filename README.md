@@ -1,4 +1,4 @@
 # python-learning
 Python learning notes.
 
-To be Continued.
+To be continued.
