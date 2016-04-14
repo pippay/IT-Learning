@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/old_passwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:hint="@string/modify_password_old"
+            android:inputType="textPassword"
+            android:padding="@dimen/default_padding"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/new_passwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_margin"
+            android:background="@color/white"
+            android:hint="@string/modify_password_new"
+            android:inputType="textPassword"
+            android:padding="@dimen/default_padding"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_margin_20"
+            android:background="@drawable/submit_btn_selector"
+            android:padding="@dimen/default_padding"
+            android:text="@string/submit"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>
