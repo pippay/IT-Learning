@@ -14,5 +14,6 @@ wechat: WeChat public platform development practices.
 ## HTML
 * html files
 * map.html: Baidu map api practice of mine.
+* homepage: My Homepage(1.identity;2.page).
 
 To be continued.
